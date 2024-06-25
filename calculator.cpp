@@ -11,6 +11,10 @@ int main()
     std::cin >> x >> opperand >> y;
 
     c.evaluate(x, opperand, y);
+    
     c.display();
+    x = c.get_result();
+    std::cout << "The result is " << x << std::endl;
+    
     return 0;
 }

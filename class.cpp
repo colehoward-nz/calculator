@@ -1,5 +1,6 @@
 #include "class.h"
 #include <cmath>
+#include <iostream>
 
 
 calculator::calculator() : result(0.0) {}
